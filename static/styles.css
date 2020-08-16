@@ -26,15 +26,16 @@ h1 {
   position: absolute;
 }
 
-/* Hover on Parent Container */
-.tableauPlaceholder:hover{
-  cursor: pointer;
- }
- 
- .tableauPlaceholder:hover div{
-  visibility: visible;
-  opacity: 0.7; 
- }
+#hover-steps{
+  display:none;
+  background: #2b2b2b;
+
+}
+
+
+#main:hover #hover-steps{
+  display:block;
+}
 
 #hover-content {
   display:none;
@@ -50,3 +51,5 @@ h1 {
 .tableauPlaceholder:hover #hover-content {
   display:block;
 }
+
+
