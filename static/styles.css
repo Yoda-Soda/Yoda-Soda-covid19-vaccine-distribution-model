@@ -26,19 +26,30 @@ h1 {
   position: absolute;
 }
 
-/* Hover on Parent Container */
-.tableauPlaceholder:hover{
-  cursor: pointer;
- }
- 
- .tableauPlaceholder:hover div{
-  visibility: visible;
-  opacity: 0.7; 
- }
+#hover-steps{
+  display:none;
+  background: #2b2b2b;
+
+}
+
+
+#main:hover #hover-steps{
+  display:block;
+}
 
 #hover-content {
   display:none;
+  width: 974px;
+  margin: 85px 12px 85px 55px;
+  padding: 5px 4px;
+  box-sizing: border-box;
+  color: #fff;
+  background: #2b2b2b;
+  border-bottom: 1px solid #fff;
 }
-#main:hover #hover-content {
+
+.tableauPlaceholder:hover #hover-content {
   display:block;
 }
+
+
