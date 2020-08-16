@@ -18,4 +18,27 @@ h1 {
 
 .tableauPlaceholder {
   margin: 20px auto;
+  position: relative;
+}
+
+/* Child Text Container */
+.tableauPlaceholder div{
+  position: absolute;
+}
+
+/* Hover on Parent Container */
+.tableauPlaceholder:hover{
+  cursor: pointer;
+ }
+ 
+ .tableauPlaceholder:hover div{
+  visibility: visible;
+  opacity: 0.7; 
+ }
+
+#hover-content {
+  display:none;
+}
+#main:hover #hover-content {
+  display:block;
 }
