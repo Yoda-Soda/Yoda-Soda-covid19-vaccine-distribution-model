@@ -1,6 +1,15 @@
 # Yoda-Soda-covid19-vaccine-distribution-model
 The project will provide data modelling for how to effectively distribute COVID-19 vaccines. This will provide the Government with a tool to send out resources to the exact location targeting specific areas with a specific amount of immunisation targets, allowing them to use their resources with utmost efficiency. Vaccines will be limited because of the high demand that they will carry. Deciding on where and who will need to be vaccinated to effectively stop the spread of the virus and to reach herd immunity.
 
+
+# All code and visualisation resources:
+
+- Python analysis: https://github.com/oxfordhalfblood/covid-hackerknights/pull/1
+- Tableau Dashboard: https://public.tableau.com/profile/nazmul.kaonine#!/vizhome/CovidVaccinesAustralia/Dashboard1
+
+- Google Drive: https://drive.google.com/drive/folders/1JTrpLWQicNSjp1v-lfo4IqDpzwnVScxk
+
+
 ## Data Story
 
 It’s December 2020. There are long winded queues in front of the pharmacies and vaccine distribution centers. The Australian government only has a very limited number of vaccines. The population is desperate to return to normality and the vaccine is the only key to achieving this. For the government to reach the minimum requirement herd immunity needs to be reached. With a population of 25 million and barely 15 million vaccines. How will the government succeed in effectively distributing the vaccines?
